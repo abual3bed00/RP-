@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار القوانين</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>اختبار القوانين</h1>
+        </header>
+        <main>
+            <div id="user-form">
+                <input type="text" id="username" placeholder="أدخل اسمك في اللعبة">
+                <button id="start-test">ابدأ الاختبار</button>
+            </div>
+            <div id="quiz" style="display: none;">
+                <div id="question"></div>
+                <div id="answers"></div>
+                <button id="next-question">السؤال التالي</button>
+            </div>
+            <div id="result" style="display: none;">
+                <h2>نتيجتك</h2>
+                <p id="score"></p>
+                <button id="view-all-results">عرض جميع النتائج</button>
+            </div>
+            <div id="all-results" style="display: none;">
+                <h2>جميع النتائج</h2>
+                <ul id="results-list"></ul>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
